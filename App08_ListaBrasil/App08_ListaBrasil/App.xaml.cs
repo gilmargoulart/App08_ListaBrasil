@@ -11,7 +11,7 @@ namespace App08_ListaBrasil
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Estados());
         }
 
         protected override void OnStart()
